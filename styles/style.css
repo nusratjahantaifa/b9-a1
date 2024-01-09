@@ -64,14 +64,26 @@ header .banner-img {
    height: 600px;
 }
 
-.banner .banner-text {
-   text-align: center;
-   color: white;
-   align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.banner .banner-text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.banner .banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
 }
 
 
@@ -334,15 +346,7 @@ p {
     font-size: 18px;
 }
 
-#subscribe button {
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    width: 210px;
-    height: 72px;
 
-}
 .end{
     background-color: #070211;
     padding: 120px;
@@ -417,4 +421,33 @@ margin-bottom: 120px;
     padding: 10px;
     border-radius: 463px;
     border: 15px solid #F00;
+}
+
+.form-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container input {
+   width: 100%;
+   border: 1px solid white;
+   height: 72px;
+}
+.form-container button {
+    position: absolute ;
+right: -0px;
+}
+
+#subscribe button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 200px ;
+  text-align: center;
+    border:1px solid #F00; 
+    height: 72px;
+display: flex;
+justify-content: center;align-items: center;
 }
